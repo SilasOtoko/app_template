@@ -5,7 +5,7 @@
     <%= form_tag '/log_in' do %>
       <div class='control-group'>
         <%= label_tag :email %>
-        <%= email_field_tag :email, params[:user_name] || '' %>
+        <%= email_field_tag :email, params[:username] || '' %>
       </div>
       <div class='control-group'>
         <%= label_tag :password %>
